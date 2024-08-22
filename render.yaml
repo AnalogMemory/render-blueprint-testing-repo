@@ -1,17 +1,3 @@
-services:
-  - type: web
-    name: test-bluerpint-server-01
-    runtime: node
-    repo: https://github.com/render-examples/express-hello-world
-    branch: main
-    buildCommand: yarn
-    startCommand: node app.js
-    envVars:
-      - key: DB_URL
-        fromDatabase:
-          name: test-blueprint-db-01
-          property: connectionString
-
 databases:
   - name: test-blueprint-db-01
     plan: Basic-1gb
