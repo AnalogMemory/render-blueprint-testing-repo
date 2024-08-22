@@ -14,4 +14,4 @@ services:
 
 databases:
   - name: test-blueprint-db-01
-    plan: Basic-1gb
+    plan: plan-dpg-basic-1gb-rev00
