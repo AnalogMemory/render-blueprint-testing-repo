@@ -15,4 +15,3 @@ services:
 databases:
   - name: test-blueprint-db-01
     plan: Basic-1gb
-    size: 10
