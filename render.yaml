@@ -1,3 +1,5 @@
 databases:
   - name: nosize-default-plan-db
     diskSizeGB: 25
+  - name: proplan-nosize
+    plan: Pro
