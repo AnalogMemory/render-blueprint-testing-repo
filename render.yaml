@@ -1,2 +1,3 @@
 databases:
   - name: bp-default-size-db
+    diskSizeGB: 25
