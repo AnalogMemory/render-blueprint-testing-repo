@@ -1,3 +1,2 @@
 databases:
-  - name: no_size_plan
-    diskSizeGB: 30
+  - name: bp-default-size-db
