@@ -1,3 +1,2 @@
 databases:
-  - name: test-blueprint-db-01
-    plan: Basic-1gb
+  - name: no_size_plan
